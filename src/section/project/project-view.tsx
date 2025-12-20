@@ -44,7 +44,7 @@ const ProjectView = () => {
 
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ const ProjectView = () => {
 
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ const ProjectView = () => {
 
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -313,7 +313,7 @@ const ProjectView = () => {
 
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -383,7 +383,7 @@ const ProjectView = () => {
                                     {t("teamSize")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    5
+                                    3
                                 </div>
                             </div>
                         </div>
@@ -486,7 +486,7 @@ const ProjectView = () => {
 
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    5
+                                    3
                                 </div>
                             </div>
                         </div>
