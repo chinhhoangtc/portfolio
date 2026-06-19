@@ -1,7 +1,7 @@
 {
     "helloIm": "Xin chào, tôi là",
     "fullName": "Hoàng Văn Chính",
-    "profileDescription": "Là một Front-end Developer chuyên sâu về ReactJS với hơn 3 năm kinh nghiệm. Tôi có 2 năm phát triển hệ thống thương mại điện tử và các dự án outsourcing, cùng hơn 1 năm kinh nghiệm về Blockchain & DeFi. Tôi luôn chú trọng trải nghiệm người dùng, hiệu năng và chất lượng sản phẩm trong suốt quá trình phát triển.",
+    "profileDescription": "Là Frontend Engineer chuyên về ReactJS và TypeScript với hơn 3 năm kinh nghiệm phát triển ứng dụng web. Tôi đã tham gia xây dựng các hệ thống FinTech, Blockchain và TravelTech, từ nền tảng giao dịch thời gian thực đến các hệ sinh thái B2B/B2C quy mô lớn. Tôi tập trung vào việc thiết kế kiến trúc frontend dễ mở rộng, tối ưu hiệu năng và chuyển hóa các yêu cầu nghiệp vụ phức tạp thành những sản phẩm ổn định, thân thiện với người dùng.",
     "projectsOverview": "Tổng quan dự án",
     "frontendDeveloper": "Lập trình viên Front-end",
     "duration": "Thời gian",
@@ -83,5 +83,7 @@
     "studentResearch": "Top 20 sinh viên xuất sắc – Nghiên cứu khoa học cấp khoa",
     "innovationStartup": "Sáng tạo & khởi nghiệp (Ứng dụng hỗ trợ thi chứng chỉ trực tuyến)",
     "certification": "Chứng chỉ",
-    "autoTradingBotProject": "Dự án bot giao dịch tự động, cho phép người dùng kết nối API Binance / Bitget và thực hiện giao dịch tự động."
+    "autoTradingBotProject": "Dự án bot giao dịch tự động, cho phép người dùng kết nối API Binance / Bitget và thực hiện giao dịch tự động.",
+    "pngsoftDesc": "Hệ sinh thái quản lý du lịch hỗ trợ B2B và B2C, bao gồm Agent, Agent Member, Agent Host, Agent Market, TMS và iTourGo.",
+    "platformAccess": "Truy cập nền tảng"
 }

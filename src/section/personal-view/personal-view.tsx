@@ -115,7 +115,7 @@ const PersonalView = () => {
                         </a>
 
                         <span className="text-gray-400 flex items-center gap-2">
-                            📍 Cầu Giấy, Hà Nội
+                            📍 Hoàng Mai, Hà Nội
                         </span>
                     </div>
 

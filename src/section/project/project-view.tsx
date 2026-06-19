@@ -1,13 +1,333 @@
 import img1 from "../../assets/images/AICEX.png"
 import img2 from "../../assets/images/APEXBIT.png"
 import img3 from "../../assets/images/XAI.png"
+import imgpng from "../../assets/images/PNGSOFT.png"
 import { useTranslate } from "../../locales"
 const ProjectView = () => {
     const { t } = useTranslate("home")
     return (
         <div>
-            <section id="projects" className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+            <section id="projects" className="py-20 max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
                 <h2 className="text-4xl font-extrabold text-white text-center">{t("projectsOverview")}</h2>
+
+                {/* Project 1 - Image Right */}
+
+                <div className="flex flex-col lg:flex-row items-center bg-gray-900 rounded-xl shadow-xl border border-gray-800 p-4 transition duration-500 hover:shadow-2xl hover:border-blue-700/50">
+
+                    {/* IMAGE SIDE */}
+                    <div className="w-full lg:w-2/5 p-4 relative group">
+                        <div className="absolute inset-0 opacity-20 blur-xl transition-opacity duration-500 group-hover:opacity-40 rounded-lg left-0"></div>
+
+                        <img
+                            src={imgpng}
+                            alt="PNGSOFT Travel Ecosystem"
+                            className="w-full h-auto rounded-lg shadow-2xl transition duration-500 transform group-hover:scale-[1.01] relative z-10"
+                        />
+
+                        <span className="absolute top-8 left-8 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full z-20">
+                            Tech Lead
+                        </span>
+
+                        {/* META (desktop) */}
+                        <div className="sm:flex hidden w-full items-center justify-between mt-4 gap-4">
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("duration")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    #
+                                </div>
+                            </div>
+
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("role")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    Technical Lead
+                                </div>
+                            </div>
+
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("teamSize")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    6
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* CONTENT SIDE */}
+                    <div className="w-full lg:w-3/5 p-4 lg:p-8 space-y-4">
+
+                        <h3 className="text-3xl font-bold text-blue-400 sm:text-start text-center">
+                            Travel Management Ecosystem (B2B & B2C)
+                        </h3>
+
+                        <p className="text-gray-400 italic sm:text-start text-center">
+                            {t("pngsoftDesc")}
+                        </p>
+
+                        {/* TECH */}
+                        <div className="flex flex-wrap gap-2 pt-2">
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">ReactJS</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">TypeScript</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Redux Toolkit</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Zustand</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">React Query</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">TailwindCSS</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">REST API</span>
+                        </div>
+
+                        {/* RESPONSIBILITIES */}
+                        <div className="sm:text-start text-center text-white font-semibold">
+                            Key Responsibilities & Leadership
+                        </div>
+
+                        <ul className="list-disc pl-5 text-gray-300 space-y-2 text-sm">
+                            <li>
+                                Led frontend development across a multi-platform Travel Management Ecosystem serving B2B and B2C travel operations.
+                            </li>
+
+                            <li>
+                                Migrated legacy jQuery applications to modern ReactJS architecture while maintaining business continuity and improving maintainability.
+                            </li>
+
+                            <li>
+                                Defined frontend architecture, project structure, coding standards, reusable components, and development workflows for the engineering team.
+                            </li>
+
+                            <li>
+                                Worked directly with stakeholders, product owners, and business analysts to transform complex travel workflows into scalable web applications.
+                            </li>
+
+                            <li>
+                                Collaborated closely with backend teams during the migration from .NET Framework to .NET Core and API modernization initiatives.
+                            </li>
+
+                            <li>
+                                Planned tasks, reviewed code, mentored frontend developers, and ensured code quality across multiple products and business domains.
+                            </li>
+
+                            <li>
+                                Developed and maintained critical business modules including Tour Management, Booking, Hotel, Customer, Supplier, Contract, Quotation, Payment, Reporting, and CMS.
+                            </li>
+                        </ul>
+
+                        {/* FEATURE HIGHLIGHTS */}
+                        <div className="pt-6 space-y-4">
+                            <h4 className="text-lg font-semibold text-blue-300 sm:text-start text-center">
+                                Core Systems & Business Domains
+                            </h4>
+
+                            <ol className="list-disc pl-5 space-y-4 text-gray-300 text-sm">
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        Enterprise Authentication (SSO) & Role-Based Access Control
+                                    </span>
+                                    {" "}– Built centralized authentication and authorization systems supporting Single Sign-On, permission-based routing, dynamic menu rendering, role hierarchies, and organization-level access control across multiple platforms.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        End-to-End Booking Lifecycle Management
+                                    </span>
+                                    {" "}– Designed and implemented booking workflows covering quotation requests, booking creation, booking customization, contract generation, payment tracking, approval processes, cancellation handling, booking status transitions, and operational reporting.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        Tour Management & Customized Tour Builder
+                                    </span>
+                                    {" "}– Developed systems for standard tours, customized tours, series tours, itineraries, destinations, schedules, package configurations, travel services, and dynamic pricing structures supporting complex travel operations.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        Hotel, Supplier & Service Management
+                                    </span>
+                                    {" "}– Built hotel inventory management, supplier onboarding, contract management, room allocation, pricing control, availability tracking, and service coordination modules for travel agencies and operators.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        Advanced Search & Data Management
+                                    </span>
+                                    {" "}– Architected reusable search, filtering, sorting, pagination, and data exploration systems capable of handling large business datasets across tours, hotels, bookings, customers, suppliers, and contracts.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        Agent Ecosystem Platforms
+                                    </span>
+                                    {" "}– Contributed to Agent, Agent Member, Agent Host, Agent Market, TMS, and iTourGo platforms, enabling seamless collaboration between travel agencies, partners, suppliers, operators, and end customers.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        Dynamic Forms & Enterprise UI Architecture
+                                    </span>
+                                    {" "}– Designed reusable component libraries, dynamic form engines, validation systems, permission-aware UI rendering, configurable tables, and scalable frontend patterns shared across multiple products.
+                                </li>
+
+                                <li>
+                                    <span className="text-white font-medium">
+                                        CMS, Reporting & Operational Dashboards
+                                    </span>
+                                    {" "}– Built administrative dashboards, CMS modules, reporting systems, analytics views, and operational tools supporting day-to-day travel business management and decision-making.
+                                </li>
+
+                            </ol>
+                        </div>
+
+                        {/* MOBILE META */}
+                        <div className="sm:hidden flex flex-col w-full items-center justify-between mt-4 gap-4">
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">{t("duration")}</div>
+                                <div className="text-sm font-semibold text-white mt-1">03/2026 - Present</div>
+                            </div>
+
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">{t("role")}</div>
+                                <div className="text-sm font-semibold text-white mt-1">Frontend Lead</div>
+                            </div>
+
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">{t("teamSize")}</div>
+                                <div className="text-sm font-semibold text-white mt-1">6</div>
+                            </div>
+                        </div>
+
+                        {/* SYSTEM LINKS */}
+                        <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-6">
+
+                            {/* PLATFORM ACCESS LABEL */}
+                            <div className="w-full text-sm text-gray-400">
+                                {t("platformAccess")}:
+                            </div>
+
+                            {/* COMPANY */}
+                            <a
+                                href="https://www.pngsoft.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="
+        group relative inline-flex items-center justify-center
+        px-6 py-3 rounded-xl font-semibold text-white
+        bg-linear-to-r from-blue-500 to-cyan-500
+        shadow-lg shadow-blue-500/30
+        transition-all duration-300
+        hover:-translate-y-1 hover:shadow-xl hover:shadow-cyan-500/40
+        focus:outline-none sm:w-auto w-full
+    "
+                            >
+                                <span className="relative z-10">Company</span>
+                            </a>
+
+                            {/* AGENT */}
+                            <a
+                                href="https://myagent.itourlink.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="
+        group relative inline-flex items-center justify-center
+        px-6 py-3 rounded-xl font-semibold text-white
+        bg-gray-900/40 border border-gray-700
+        backdrop-blur
+        transition-all duration-300
+        hover:border-gray-500 hover:text-white
+        hover:-translate-y-1 hover:shadow-lg hover:shadow-gray-500/20
+        focus:outline-none sm:w-auto w-full
+    "
+                            >
+                                <span className="relative z-10">Agent</span>
+                            </a>
+
+                            {/* MARKET */}
+                            <a
+                                href="https://myagentmarket.itourlink.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="
+        group relative inline-flex items-center justify-center
+        px-6 py-3 rounded-xl font-semibold text-white
+        bg-gray-900/40 border border-gray-700
+        backdrop-blur
+        transition-all duration-300
+        hover:border-gray-500 hover:text-white
+        hover:-translate-y-1 hover:shadow-lg hover:shadow-gray-500/20
+        focus:outline-none sm:w-auto w-full
+    "
+                            >
+                                <span className="relative z-10">Market</span>
+                            </a>
+
+                            {/* MEMBER */}
+                            <a
+                                href="https://myagentmember.itourlink.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="
+        group relative inline-flex items-center justify-center
+        px-6 py-3 rounded-xl font-semibold text-white
+        bg-gray-900/40 border border-gray-700
+        backdrop-blur
+        transition-all duration-300
+        hover:border-gray-500 hover:text-white
+        hover:-translate-y-1 hover:shadow-lg hover:shadow-gray-500/20
+        focus:outline-none sm:w-auto w-full
+    "
+                            >
+                                <span className="relative z-10">Member</span>
+                            </a>
+
+                            {/* HOST */}
+                            <a
+                                href="https://agenthost.itourlink.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="
+        group relative inline-flex items-center justify-center
+        px-6 py-3 rounded-xl font-semibold text-white
+        bg-gray-900/40 border border-gray-700
+        backdrop-blur
+        transition-all duration-300
+        hover:border-gray-500 hover:text-white
+        hover:-translate-y-1 hover:shadow-lg hover:shadow-gray-500/20
+        focus:outline-none sm:w-auto w-full
+    "
+                            >
+                                <span className="relative z-10">Host</span>
+                            </a>
+
+                            {/* TMS */}
+                            <a
+                                href="http://demo.itoursys.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="
+        group relative inline-flex items-center justify-center
+        px-6 py-3 rounded-xl font-semibold text-white
+        bg-gray-900/40 border border-gray-700
+        backdrop-blur
+        transition-all duration-300
+        hover:border-gray-500 hover:text-white
+        hover:-translate-y-1 hover:shadow-lg hover:shadow-gray-500/20
+        focus:outline-none sm:w-auto w-full
+    "
+                            >
+                                <span className="relative z-10">TMS</span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                {/* Project 2 - Image Right */}
 
                 <div className="flex flex-col lg:flex-row items-center bg-gray-900 rounded-xl shadow-xl border border-gray-800 p-4 transition duration-500 hover:shadow-2xl hover:border-blue-700/50">
                     <div className="w-full lg:w-2/5 p-4 relative group">
@@ -168,7 +488,7 @@ const ProjectView = () => {
                     </div>
                 </div>
 
-                {/* Project 2 - Image Right */}
+                {/* Project 3 - Image Right */}
                 <div className="flex flex-col lg:flex-row-reverse items-center bg-gray-900 rounded-xl shadow-xl border border-gray-800 p-4 transition duration-500 hover:shadow-2xl hover:border-blue-700/50">
                     {/* Image */}
                     <div className="w-full lg:w-2/5 p-4 relative group">
@@ -347,7 +667,7 @@ const ProjectView = () => {
                     </div>
                 </div>
 
-                {/* Project 3 - Image Left */}
+                {/* Project 4 - Image Left */}
                 <div className="flex flex-col lg:flex-row items-center bg-gray-900 rounded-xl shadow-xl border border-gray-800 p-4 transition duration-500 hover:shadow-2xl hover:border-blue-700/50">
                     {/* Image */}
                     <div className="w-full lg:w-2/5 p-4 relative group">
@@ -533,7 +853,9 @@ const ProjectView = () => {
                         </div>
                     </div>
                 </div>
-            </section></div>
+            </section>
+
+        </div>
     )
 }
 

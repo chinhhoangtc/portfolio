@@ -1,7 +1,7 @@
 {
     "helloIm": "Hello, I'm",
     "fullName": "Hoàng Văn Chính",
-    "profileDescription": "I am a Front-end Developer specializing in ReactJS with over 3 years of experience. I have 2 years of experience developing e-commerce systems and outsourcing projects, along with more than 1 year of experience in Blockchain & DeFi. I always focus on user experience, performance, and product quality throughout the development process.",
+    "profileDescription": "I am a Frontend Engineer specializing in ReactJS and TypeScript with over 3 years of experience building web applications. Throughout my career, I have contributed to FinTech, Blockchain, and TravelTech products, ranging from real-time trading platforms to large-scale B2B and B2C ecosystems. I focus on designing scalable frontend architectures, optimizing performance, and transforming complex business requirements into reliable, user-friendly products.",
     "projectsOverview": "Projects Overview",
     "frontendDeveloper": "Frontend Developer",
     "duration": "Duration",
@@ -83,5 +83,7 @@
     "studentResearch": "Top 20 Students – Faculty-Level Research Program",
     "innovationStartup": "Innovation & Entrepreneurship: Online Certification Support App",
     "certification": "Certification",
-    "autoTradingBotProject": "Automated trading bot project allowing users to connect Binance / Bitget APIs and execute trades automatically."
+    "autoTradingBotProject": "Automated trading bot project allowing users to connect Binance / Bitget APIs and execute trades automatically.",
+    "pngsoftDesc": "A travel management ecosystem supporting B2B and B2C operations, including Agent, Agent Member, Agent Host, Agent Market, TMS, and iTourGo platforms.",
+    "platformAccess": "Platform Access"
 }
