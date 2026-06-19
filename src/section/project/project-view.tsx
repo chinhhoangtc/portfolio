@@ -83,101 +83,101 @@ const ProjectView = () => {
 
                         {/* RESPONSIBILITIES */}
                         <div className="sm:text-start text-center text-white font-semibold">
-                            Key Responsibilities & Leadership
+                            {t("keyResponsibilitiesLeadership")}
                         </div>
 
                         <ul className="list-disc pl-5 text-gray-300 space-y-2 text-sm">
                             <li>
-                                Led frontend development across a multi-platform Travel Management Ecosystem serving B2B and B2C travel operations.
+                                {t("travelManagementEcosystem")}
                             </li>
 
                             <li>
-                                Migrated legacy jQuery applications to modern ReactJS architecture while maintaining business continuity and improving maintainability.
+                                {t("jqueryMigration")}
                             </li>
 
                             <li>
-                                Defined frontend architecture, project structure, coding standards, reusable components, and development workflows for the engineering team.
+                                {t("frontendArchitecture")}
                             </li>
 
                             <li>
-                                Worked directly with stakeholders, product owners, and business analysts to transform complex travel workflows into scalable web applications.
+                                {t("stakeholderCollaboration")}
                             </li>
 
                             <li>
-                                Collaborated closely with backend teams during the migration from .NET Framework to .NET Core and API modernization initiatives.
+                                {t("backendCollaboration")}
                             </li>
 
                             <li>
-                                Planned tasks, reviewed code, mentored frontend developers, and ensured code quality across multiple products and business domains.
+                                {t("teamLeadership")}
                             </li>
 
                             <li>
-                                Developed and maintained critical business modules including Tour Management, Booking, Hotel, Customer, Supplier, Contract, Quotation, Payment, Reporting, and CMS.
+                                {t("businessModules")}
                             </li>
                         </ul>
 
                         {/* FEATURE HIGHLIGHTS */}
                         <div className="pt-6 space-y-4">
                             <h4 className="text-lg font-semibold text-blue-300 sm:text-start text-center">
-                                Core Systems & Business Domains
+                                {t("coreSystemsBusinessDomains")}
                             </h4>
 
                             <ol className="list-disc pl-5 space-y-4 text-gray-300 text-sm">
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        Enterprise Authentication (SSO) & Role-Based Access Control
+                                        {t("enterpriseAuthentication")}
                                     </span>
-                                    {" "}– Built centralized authentication and authorization systems supporting Single Sign-On, permission-based routing, dynamic menu rendering, role hierarchies, and organization-level access control across multiple platforms.
+                                    {" "}– {t("enterpriseAuthenticationDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        End-to-End Booking Lifecycle Management
+                                        {t("bookingLifecycle")}
                                     </span>
-                                    {" "}– Designed and implemented booking workflows covering quotation requests, booking creation, booking customization, contract generation, payment tracking, approval processes, cancellation handling, booking status transitions, and operational reporting.
+                                    {" "}– {t("bookingLifecycleDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        Tour Management & Customized Tour Builder
+                                        {t("tourManagement")}
                                     </span>
-                                    {" "}– Developed systems for standard tours, customized tours, series tours, itineraries, destinations, schedules, package configurations, travel services, and dynamic pricing structures supporting complex travel operations.
+                                    {" "}– {t("tourManagementDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        Hotel, Supplier & Service Management
+                                        {t("hotelSupplierManagement")}
                                     </span>
-                                    {" "}– Built hotel inventory management, supplier onboarding, contract management, room allocation, pricing control, availability tracking, and service coordination modules for travel agencies and operators.
+                                    {" "}– {t("hotelSupplierManagementDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        Advanced Search & Data Management
+                                        {t("advancedSearch")}
                                     </span>
-                                    {" "}– Architected reusable search, filtering, sorting, pagination, and data exploration systems capable of handling large business datasets across tours, hotels, bookings, customers, suppliers, and contracts.
+                                    {" "}– {t("advancedSearchDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        Agent Ecosystem Platforms
+                                        {t("agentPlatforms")}
                                     </span>
-                                    {" "}– Contributed to Agent, Agent Member, Agent Host, Agent Market, TMS, and iTourGo platforms, enabling seamless collaboration between travel agencies, partners, suppliers, operators, and end customers.
+                                    {" "}– {t("agentPlatformsDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        Dynamic Forms & Enterprise UI Architecture
+                                        {t("dynamicForms")}
                                     </span>
-                                    {" "}– Designed reusable component libraries, dynamic form engines, validation systems, permission-aware UI rendering, configurable tables, and scalable frontend patterns shared across multiple products.
+                                    {" "}– {t("dynamicFormsDesc")}
                                 </li>
 
                                 <li>
                                     <span className="text-white font-medium">
-                                        CMS, Reporting & Operational Dashboards
+                                        {t("cmsReporting")}
                                     </span>
-                                    {" "}– Built administrative dashboards, CMS modules, reporting systems, analytics views, and operational tools supporting day-to-day travel business management and decision-making.
+                                    {" "}– {t("cmsReportingDesc")}
                                 </li>
 
                             </ol>
