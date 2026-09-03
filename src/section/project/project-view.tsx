@@ -695,8 +695,7 @@ const ProjectView = () => {
                                     {t("role")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    {/* Frontend */}
-                                    Fullstack
+                                    Frontend
                                 </div>
                             </div>
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3">
@@ -722,7 +721,6 @@ const ProjectView = () => {
                             <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Wallet Connect</span>
                             <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">REST API</span>
                             <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">JWT Auth</span>
-                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Node JS</span>
                         </div>
                         <div className="sm:text-start text-center">{t("mainResponsibilities")}</div>
                         <ul className="list-disc pl-5 text-gray-300 space-y-1">
@@ -799,8 +797,7 @@ const ProjectView = () => {
                                     {t("role")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    {/* Frontend */}
-                                    Fullstack
+                                    Frontend
                                 </div>
                             </div>
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 sm:w-auto w-full">
