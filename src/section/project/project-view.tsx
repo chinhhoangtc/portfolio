@@ -2,6 +2,7 @@ import img1 from "../../assets/images/AICEX.png"
 import img2 from "../../assets/images/APEXBIT.png"
 import img3 from "../../assets/images/XAI.png"
 import imgpng from "../../assets/images/PNGSOFT.png"
+import img4 from "../../assets/images/MMOWEB3.jpg"
 import { useTranslate } from "../../locales"
 const ProjectView = () => {
     const { t } = useTranslate("home")
@@ -192,7 +193,7 @@ const ProjectView = () => {
 
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
                                 <div className="text-xs text-gray-400 uppercase tracking-wide">{t("role")}</div>
-                                <div className="text-sm font-semibold text-white mt-1">Frontend Lead</div>
+                                <div className="text-sm font-semibold text-white mt-1">Fullstack Developer</div>
                             </div>
 
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
@@ -346,7 +347,7 @@ const ProjectView = () => {
                                     {t("duration")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8 {t("months")}
+                                    10 {t("months")}
                                 </div>
                             </div>
 
@@ -437,7 +438,7 @@ const ProjectView = () => {
                                     {t("duration")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8 {t("months")}
+                                    10 {t("months")}
                                 </div>
                             </div>
 
@@ -446,7 +447,7 @@ const ProjectView = () => {
                                     {t("role")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    Frontend
+                                    Frontend Developer
                                 </div>
                             </div>
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
@@ -507,7 +508,7 @@ const ProjectView = () => {
                                     {t("duration")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8 {t("months")}
+                                    12 {t("months")}
                                 </div>
                             </div>
 
@@ -615,7 +616,7 @@ const ProjectView = () => {
                                     {t("duration")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    8 {t("months")}
+                                    12 {t("months")}
                                 </div>
                             </div>
 
@@ -624,7 +625,7 @@ const ProjectView = () => {
                                     {t("role")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    Frontend
+                                    Frontend Developer
                                 </div>
                             </div>
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
@@ -686,7 +687,7 @@ const ProjectView = () => {
                                     {t("duration")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    4 {t("months")}
+                                    8 {t("months")}
                                 </div>
                             </div>
 
@@ -695,7 +696,7 @@ const ProjectView = () => {
                                     {t("role")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    Frontend
+                                    Frontend Developer
                                 </div>
                             </div>
                             <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3">
@@ -788,7 +789,7 @@ const ProjectView = () => {
                                     {t("duration")}
                                 </div>
                                 <div className="text-sm font-semibold text-white mt-1">
-                                    4 {t("months")}
+                                    8 {t("months")}
                                 </div>
                             </div>
 
@@ -853,6 +854,101 @@ const ProjectView = () => {
                         </div>
                     </div>
                 </div>
+                {/* Project 5 - MMO Web3 */}
+                <div className="flex flex-col lg:flex-row-reverse items-center bg-gray-900 rounded-xl shadow-xl border border-gray-800 p-4 transition duration-500 hover:shadow-2xl hover:border-blue-700/50 mt-16">
+                    {/* Image */}
+                    <div className="w-full lg:w-2/5 p-4 relative group">
+                        <div className="absolute inset-0 opacity-20 blur-xl transition-opacity duration-500 group-hover:opacity-40 rounded-lg right-0"></div>
+                        <img
+                            src={img4} /* TODO: Replace with MMO image once available */
+                            alt="MMO Web3 - Digital Resource Marketplace"
+                            className="w-full h-auto rounded-lg shadow-2xl transition duration-500 transform group-hover:scale-[1.01] relative z-10"
+                        />
+                        <span className="absolute top-8 left-8 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full z-20">
+                            {t("close")}
+                        </span>
+                        <div className="hidden sm:flex items-center justify-between mt-4 gap-4">
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("duration")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    8 {t("months")}
+                                </div>
+                            </div>
+
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("role")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    Frontend Developer
+                                </div>
+                            </div>
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("teamSize")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    8
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Content */}
+                    <div className="w-full lg:w-3/5 p-4 lg:p-8 space-y-4">
+                        <h3 className="text-3xl font-bold text-blue-400 sm:text-start text-center">{t("mmoTitle")}</h3>
+                        <p className="text-gray-400 italic sm:text-start text-center">
+                            {t("mmoDesc")}
+                        </p>
+                        <div className="flex flex-wrap gap-2 pt-2">
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">ReactJS</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">TypeScript</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Web3.js / Ethers.js</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Tailwind CSS</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">REST API</span>
+                            <span className="px-3 py-1 text-xs bg-gray-700 text-blue-300 rounded-full font-medium">Redux Toolkit / Zustand</span>
+                        </div>
+                        <div className="sm:text-start text-center">{t("mainResponsibilities")}</div>
+                        <ul className="list-disc pl-5 text-gray-300 space-y-1 pt-2">
+                            <li className="text-sm">{t("Frontend Developer")}</li>
+                            <li className="text-sm">{t("mmoFeature1")}</li>
+                            <li className="text-sm">{t("mmoFeature2")}</li>
+                            <li className="text-sm">{t("mmoFeature3")}</li>
+                            <li className="text-sm">{t("mmoFeature4")}</li>
+                            <li className="text-sm">{t("mmoFeature5")}</li>
+                        </ul>
+
+                        <div className="flex flex-col sm:hidden items-center justify-between mt-4 gap-4">
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("duration")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    8 {t("months")}
+                                </div>
+                            </div>
+
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("role")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    Frontend Developer
+                                </div>
+                            </div>
+                            <div className="flex-1 rounded-lg bg-white/5 border border-white/10 p-3 w-full">
+                                <div className="text-xs text-gray-400 uppercase tracking-wide">
+                                    {t("teamSize")}
+                                </div>
+                                <div className="text-sm font-semibold text-white mt-1">
+                                    8
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
         </div>

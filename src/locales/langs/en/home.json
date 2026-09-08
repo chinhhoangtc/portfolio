@@ -111,5 +111,12 @@
     "dynamicForms": "Dynamic Forms & Enterprise UI Architecture",
     "dynamicFormsDesc": "Designed reusable component libraries, dynamic form engines, validation systems, permission-aware UI rendering, configurable tables, and scalable frontend patterns shared across multiple products.",
     "cmsReporting": "CMS, Reporting & Operational Dashboards",
-    "cmsReportingDesc": "Built administrative dashboards, CMS modules, reporting systems, analytics views, and operational tools supporting day-to-day travel business management and decision-making."
+    "cmsReportingDesc": "Built administrative dashboards, CMS modules, reporting systems, analytics views, and operational tools supporting day-to-day travel business management and decision-making.",
+    "mmoTitle": "MMO Web3 – Digital Resource Marketplace",
+    "mmoDesc": "A Web3-enabled digital marketplace for trading MMO assets and social accounts, featuring hybrid payment systems (crypto wallet & fiat).",
+    "mmoFeature1": "Designed modular UI components and scalable state management to support multi-category resource browsing and automated checkout flows.",
+    "mmoFeature2": "Integrated Web3 wallet providers (MetaMask, WalletConnect) to execute smart contract transactions and handle asynchronous payment verification states.",
+    "mmoFeature3": "Developed a multi-role Admin Dashboard with dynamic permission controls for listing approval, user management, and content moderation.",
+    "mmoFeature4": "Implemented community engagement tools (blogs, news feeds) with rich-text editor integration and optimized client-side media rendering.",
+    "mmoFeature5": "Handled hybrid payment flows (crypto & traditional gateways), implementing fallback UI for network switches and pending transaction states."
 }

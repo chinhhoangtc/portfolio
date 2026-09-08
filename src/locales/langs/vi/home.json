@@ -110,5 +110,12 @@
     "dynamicForms": "Biểu mẫu động & Kiến trúc UI doanh nghiệp",
     "dynamicFormsDesc": "Thiết kế thư viện component tái sử dụng, hệ thống form động, cơ chế validation, giao diện hiển thị theo quyền, bảng dữ liệu cấu hình được và các mô hình frontend có khả năng mở rộng dùng chung cho nhiều sản phẩm.",
     "cmsReporting": "CMS, Báo cáo & Dashboard vận hành",
-    "cmsReportingDesc": "Xây dựng dashboard quản trị, module CMS, hệ thống báo cáo, màn hình phân tích dữ liệu và các công cụ vận hành hỗ trợ quản lý hoạt động du lịch hàng ngày và ra quyết định."
+    "cmsReportingDesc": "Xây dựng dashboard quản trị, module CMS, hệ thống báo cáo, màn hình phân tích dữ liệu và các công cụ vận hành hỗ trợ quản lý hoạt động du lịch hàng ngày và ra quyết định.",
+    "mmoTitle": "MMO Web3 – Chợ tài nguyên số",
+    "mmoDesc": "Nền tảng chợ điện tử Web3 để giao dịch tài sản MMO và tài khoản mạng xã hội, tích hợp hệ thống thanh toán lai (ví tiền điện tử & fiat).",
+    "mmoFeature1": "Thiết kế các UI component linh hoạt và quản lý state dễ mở rộng để hỗ trợ duyệt tài nguyên đa danh mục và luồng thanh toán tự động.",
+    "mmoFeature2": "Tích hợp các nhà cung cấp ví Web3 (MetaMask, WalletConnect) để thực thi giao dịch smart contract và xử lý trạng thái xác minh thanh toán bất đồng bộ.",
+    "mmoFeature3": "Phát triển Admin Dashboard đa vai trò với quyền kiểm soát động để phê duyệt danh sách, quản lý người dùng và kiểm duyệt nội dung.",
+    "mmoFeature4": "Triển khai các công cụ tương tác cộng đồng (blog, news feed) tích hợp trình soạn thảo rich-text và tối ưu hóa việc tải media phía client.",
+    "mmoFeature5": "Xử lý các luồng thanh toán lai (crypto & cổng thanh toán truyền thống), thiết lập UI dự phòng khi chuyển mạng và xử lý trạng thái giao dịch đang chờ."
 }
